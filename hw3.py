@@ -20,7 +20,6 @@ def QuickSort(array, start, end):
     print(array)
     
     QuickSort(array, start, right - 1)
-    
     QuickSort(array, right + 1, end)
 
 array = [33, 67, 8, 13, 54, 119, 3, 84, 25, 41]
