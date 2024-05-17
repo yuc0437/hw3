@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 def QuickSort(array, start, end):
     if start >= end:
         return
@@ -35,16 +29,3 @@ print(f"Initial array: {array}")
 QuickSort(array, 0, len(array) - 1)
 
 print(f"Sorted array: {array}")
-
-
-# In[3]:
-
-
-get_ipython().system('jupyter nbconvert --to script first_code.ipynb')
-
-
-# In[ ]:
-
-
-
-
